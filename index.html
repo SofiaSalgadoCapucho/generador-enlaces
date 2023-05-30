@@ -4,58 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="cssgeneradorEnlaces.css" rel="stylesheet">
+    <link href="generadorEnlacesCss.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,800;1,500;1,700;1,800&family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+
     <title>Document</title>  
 </head>
-<body>   
+<body class="body">   
     <div class="m-3">
-      <h1>Formulario de países</h1>
+      <div class="img-zara">
+        <img src="img/450_1000.png" alt="Logo"> <!-- Reemplaza 'ruta/de/la/imagen.jpg' con la ruta de tu imagen -->
+        <h1>Generador de enlaces</h1>
+        <br>
+    </div>
       <form id="myForm">
-      <label for="pais">Seleccione un país:</label>
-      <select name="pais" id="pais" multiple>
-        <option value="" >--Seleccione--</option>
-        <option value="al">Albania</option>
-        <option value="dz">Argelia</option>
-        <option value="ad">Andorra</option>
-        <option value="ao">Angola</option>
-        <option value="ar">Argentina</option>
-        <option value="am">Armenia</option>
-        <option value="au">Australia</option>
-        <option value="at">Austria</option>
-        <option value="az">Azerbaiyán</option>
-        <option value="bh">Bahréin</option>
-        <option value="by">Bielorrusia</option>
-        <option value="be">Bélgica</option>
-        <option value="ba">Bosnia y Herzegovina</option>
-        <option value="br">Brasil</option>
-        <option value="bg">Bulgaria</option>
-        <option value="kh">Camboya</option>
-        <option value="ca">Canadá</option>
-        <option value="cl">Chile</option>
-        <option value="cn">China</option>
-        <option value="co">Colombia</option>
-        <option value="cr">Costa Rica</option>
-        <option value="hr">Croacia</option>
-        <option value="cy">Chipre</option>
-        <option value="cz">República Checa</option>
-        <option value="dk">Dinamarca</option>
-      </select>
-      <label for="pais">Seleccione un país:</label>
-      <select name="entorno" id="entorno" multiple>
-        <option value="close" >Close</option>
-        <option value="stage">Stage</option>
-        <option value="proxy">Proxy</option>
-        <option value="pro">Pro</option>
-      </select>
+        <div class="myform">
+         <div class="select">
+          <label for="pais" class="label">Seleccione un País:</label>
+          <select name="pais" id="pais" class="selectpicker" data-show-subtext="true" data-live-search="true" multiple>
+              <option value="al">Albania</option>
+              <option value="am">Armenia</option>
+              <option value="ad">Andorra</option>
+              <option value="ao">Angola</option>
+              <option value="ar">Argentina</option>
+              <option value="at">Austria</option>
+              <option value="au">Australia</option>
+              <option value="az">Azerbaiyan</option>
+              <option value="ba">Bosnia-Herzegov</option>
+              <option value="bh">Bahrain</option>
+              <option value="br">Brasil</option>
+              <option value="bg">Bulgaria</option>
+              <option value="kh">Cambodia</option>
+              <option value="ca">Canada</option>
+              <option value="cl">Chile</option>
+              <option value="cn">Mainland China</option>
+              <option value="co">Colombia</option>
+              <option value="cr">Costa Rica</option>
+              <option value="cy">Chipre</option>
+              <option value="cz">Rep.Checa</option>
+              <option value="dk">Dinamarca</option>
+              <option value="do">Rep.Dominicana</option>
+              <option value="ec">Ecuador</option>
+              <option value="eg">Egipto</option>
+              <option value="ae">Emiratos Arabes</option>
+              <option value="es">España</option>
+              <option value="fi">Finlandia</option>
+              <option value="fr">Francia</option>
+              <option value="ge">Georgia</option>
+              <option value="gr">Grecia</option>
+              <option value="gt">Guatemala</option>
+              <option value="hk">Hong Kong SAR</option>
+              <option value="hn">Honduras</option>
+              <option value="hr">Croacia</option>
+              <option value="hu">Hungria</option>
+              <option value="id">Indonesia</option>
+              <option value="ie">Irlanda</option>
+              <option value="il">Israel</option>
+              <option value="in">India</option>
+              <option value="is">Islandia</option>
+              <option value="it">Italia</option>
+              <option value="jo">Jordania</option>
+              <option value="jp">Japon</option>
+              <option value="kz">Kazajistan</option>
+              <option value="lb">Libano</option>
+              <option value="lt">Lituania</option>
+              <option value="lu">Luxemburgo</option>
+              <option value="lv">Letonia</option>
+              <option value="ma">Marruecos</option>
+              <option value="mc">Monaco</option>
+              <option value="me">Montenegro</option>
+              <option value="mk">Macedonia</option>
+              <option value="mt">Malta</option>
+              <option value="mx">Mexico</option>
+              <option value="my">Malasia</option>
+              <option value="ni">Nicaragua</option>
+              <option value="nl">Paises Bajos</option>
+              <option value="no">Noruega</option>
+              <option value="nz">Nueva Zelanda</option>
+              <option value="om">Oman</option>
+              <option value="pa">Panama</option>
+              <option value="pe">Peru</option>
+              <option value="ph">Filipinas</option>
+              <option value="pl">Polonia</option>
+              <option value="pr">Puerto Rico</option>
+              <option value="pt">Portugal</option>
+              <option value="qa">Qatar</option>
+              <option value="ro">Rumania</option>
+              <option value="rs">Serbia</option>
+              <option value="ru">Rusia</option>
+              <option value="sa">Arabia Saudi</option>
+              <option value="se">Suecia</option>
+              <option value="sg">Singapur</option>
+              <option value="si">Eslovenia</option>
+              <option value="sk">Eslovaquia</option>
+              <option value="sv">El Salvador</option>
+              <option value="th">Thailandia</option>
+              <option value="tn">Tunez</option>
+              <option value="tr">Turquia</option>
+              <option value="tw">Taiwan, China</option>
+              <option value="ua">Ucrania</option>
+              <option value="us">U.S.A.</option>
+              <option value="gb">United Kingdom</option>
+              <option value="uy">Uruguay</option>
+              <option value="vn">Vietnam</option>
+              <option value="za">Sudafrica</option>
+          </select>
+        </div>
+         <div class="select">
+          <label for="pais" class="label">Seleccione un Entorno:</label>
+          <select name="entorno" id="entorno" multiple>
+            <option value="closeProWsWm">Close Pro WS/WM</option>
+            <option value="closeProApp" >Close Pro App</option>
+            <option value="closeStageWsWm" >Close Stage WS/WM</option>
+            <option value="closeStageApp" >Close Stage App</option>
+            <option value="stage">Stage</option>
+            <option value="proxy">Proxy</option>
+            <option value="pro">Pro</option>
+          </select>
+        </div>
+      </div>
       <br><br>
-      <button type="submit" class="btn btn-info">Enviar</button>
+      <button type="submit" class="btn btn-secondary btn-lg btn-block">Generar enlaces Entornos</button>
       </form>
       <div id="dad">
-      <div id="close"></div>
-      <div id="stage"></div>
-      <div id="proxy"></div>
-      <div id="pro"></div>
+          <div id="closePro"></div>
+          <div id="closeStage"></div>
+          <div id="stage"></div>
+          <div id="proxy"></div>
+          <div id="pro"></div>
     </div>
     </div>
     <script src="generadorEnlaces.js">

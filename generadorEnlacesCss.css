@@ -1,0 +1,151 @@
+.body {
+    font-family: 'Roboto', sans-serif;  
+    background: linear-gradient(to bottom, #f1f1f1, #ccc);
+}
+
+.m-3 {
+    margin: 3rem;
+}
+
+.img-zara img {
+    width: 200px;
+    margin-right: 10px;
+    height: auto;
+}
+
+.img-zara h1 {
+    font-size: 28px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.img-zara{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.myform {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start; 
+  }
+.select {
+    display: flex;
+    flex-direction: column;
+    width: 40%; 
+    
+}
+  #pais, #entorno {
+    width: 100%; 
+  }
+#dad{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    z-index: 3;
+    
+}
+
+#dad div{
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+
+
+.label {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+   /* Estilos para los botones generados por JavaScript */
+   #closePro button,
+   #closeStage button,
+   #stage button,
+   #proxy button,
+   #pro button {
+       display: block;
+       margin-top: 1rem;
+       padding: 0.5rem 1rem;
+       background-color: #4CAF50;
+       color: white;
+       border: none;
+       border-radius: 5px;
+       transition: background-color 0.3s, transform 0.3s;
+       cursor: pointer;
+       position: relative; 
+       z-index: 2; 
+       width: 100%;
+       
+   }
+
+   #closePro button:hover,
+   #closeStage button:hover,
+   #stage button:hover,
+   #proxy button:hover,
+   #pro button:hover {
+       background-color: #45a049;
+       transform: scale(1.1);
+   }
+
+   /* Estilos para los enlaces generados por JavaScript */
+   #closePro a,
+   #closeStage a,
+   #stage a,
+   #proxy a,
+   #pro a {
+       display: block;
+       margin-top: 1rem;
+       padding: 0.5rem 1rem;
+       background-color: #007bff;
+       color: white;
+       text-decoration: none;
+       border-radius: 5px;
+       transition: background-color 0.3s, transform 0.3s;
+       position: relative; 
+       z-index: 1; 
+       width: 100%;
+   }
+
+   #closePro a:hover,
+   #closeStage a:hover,
+   #stage a:hover,
+   #proxy a:hover,
+   #pro a:hover {
+       background-color: #046ee0;
+       transform: scale(1.1);
+   }
+   #closePro a.clicked,
+   #closeStage a.clicked,
+   #stage a.clicked,
+   #proxy a.clicked,
+   #pro a.clicked {
+       background-color: #85add7;
+   }
+   .btn-secondary{
+    transition: background-color 0.3s, transform 0.3s;
+    width: 100%;
+    height: 60%;
+   }
+   .btn-secondary:hover{
+    background-color: #414243;
+    transform: scale(1.01);
+  }
+

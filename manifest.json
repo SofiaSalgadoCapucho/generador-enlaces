@@ -1,0 +1,17 @@
+{
+    "name": "Mi extensión de Chrome",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+      "tabs",
+      "http://*/*",
+      "https://*/*"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+
+  
+  
+  
