@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="cssgeneradorEnlaces.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>  
+</head>
+<body>   
+    <div class="m-3">
+      <h1>Formulario de países</h1>
+      <form id="myForm">
+      <label for="pais">Seleccione un país:</label>
+      <select name="pais" id="pais" multiple>
+        <option value="" >--Seleccione--</option>
+        <option value="al">Albania</option>
+        <option value="dz">Argelia</option>
+        <option value="ad">Andorra</option>
+        <option value="ao">Angola</option>
+        <option value="ar">Argentina</option>
+        <option value="am">Armenia</option>
+        <option value="au">Australia</option>
+        <option value="at">Austria</option>
+        <option value="az">Azerbaiyán</option>
+        <option value="bh">Bahréin</option>
+        <option value="by">Bielorrusia</option>
+        <option value="be">Bélgica</option>
+        <option value="ba">Bosnia y Herzegovina</option>
+        <option value="br">Brasil</option>
+        <option value="bg">Bulgaria</option>
+        <option value="kh">Camboya</option>
+        <option value="ca">Canadá</option>
+        <option value="cl">Chile</option>
+        <option value="cn">China</option>
+        <option value="co">Colombia</option>
+        <option value="cr">Costa Rica</option>
+        <option value="hr">Croacia</option>
+        <option value="cy">Chipre</option>
+        <option value="cz">República Checa</option>
+        <option value="dk">Dinamarca</option>
+      </select>
+      <label for="pais">Seleccione un país:</label>
+      <select name="entorno" id="entorno" multiple>
+        <option value="close" >Close</option>
+        <option value="stage">Stage</option>
+        <option value="proxy">Proxy</option>
+        <option value="pro">Pro</option>
+      </select>
+      <br><br>
+      <button type="submit" class="btn btn-info">Enviar</button>
+      </form>
+      <div id="dad">
+      <div id="close"></div>
+      <div id="stage"></div>
+      <div id="proxy"></div>
+      <div id="pro"></div>
+    </div>
+    </div>
+    <script src="generadorEnlaces.js">
+    </script>
+</body>
+</html>

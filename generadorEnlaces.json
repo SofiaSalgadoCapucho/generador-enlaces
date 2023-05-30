@@ -1,0 +1,29 @@
+ [
+    {"name": "Albania", "code": "al","lenguaje":["sq","en"]},
+    {"name": "Argelia", "code": "dz","lenguaje":["ar","en","fr"]},
+    {"name": "Andorra", "code": "ad","lenguaje":["ca","es","fr","en"]},
+    {"name": "Angola", "code": "ao","lenguaje":["en","pt"]},
+    {"name": "Argentina", "code": "ar","lenguaje":["es","en"]},
+    {"name": "Armenia", "code": "am","lenguaje":["ru","en"]},
+    {"name": "Australia", "code": "au","lenguaje":["en"]},
+    {"name": "Austria", "code": "at","lenguaje":["de","en"]},
+    {"name": "Azerbaiyán", "code": "az","lenguaje":["ru","en"]},
+    {"name": "Bahréin", "code": "bh","lenguaje":["ar","en"]},
+    {"name": "Bielorrusia", "code": "by","lenguaje":["ru","en"]},
+    {"name": "Bélgica", "code": "be","lenguaje":["en","nl","fr"]},
+    {"name": "Bosnia y Herzegovina", "code": "ba","lenguaje":["hr","en"]},
+    {"name": "Brasil", "code": "br","lenguaje":["pt","en"]},
+    {"name": "Bulgaria", "code": "bg","lenguaje":["bg","en"]},
+    {"name": "Camboya", "code": "kh","lenguaje":["en"]},
+    {"name": "Canadá", "code": "ca","lenguaje":["en","fr"]},
+    {"name": "Chile", "code": "cl","lenguaje":["es","en"]},
+    {"name": "China", "code": "cn","lenguaje":["zh","en"]},
+    {"name": "Colombia", "code": "co","lenguaje":["es","en"]},
+    {"name": "Costa Rica", "code": "cr","lenguaje":["es","en"]},
+    {"name": "Croacia", "code": "hr","lenguaje":["hr","en"]},
+    {"name": "Chipre", "code": "cy","lenguaje":["en"]},
+    {"name": "República Checa", "code": "cz","lenguaje":["cs","en"]},
+    {"name": "Dinamarca", "code": "dk","lenguaje":["da","en"]}   
+ ]
+
+ 

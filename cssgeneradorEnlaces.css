@@ -1,0 +1,11 @@
+#dad{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#dad div{
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
